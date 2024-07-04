@@ -3,13 +3,13 @@ kivy.require('2.3.0')
 
 from kivy.app import App
 from kivy.uix.textinput import TextInput
-import login
+import add_event
 
 
 class MyApp(App):
 
 	def build(self):
-		return login.LoginScreen()
+		return add_event.Add_Event()
 
 
 if __name__ == '__main__':
